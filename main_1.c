@@ -2,7 +2,7 @@
 #include <stddef.h>
 char const *find_char(char const *source,char const *chars);
 
-int main(){
+void main1(){
     char *source = "sadfgasdf";
     char *chars = "ajnadlf"; 
     char const *res = find_char(source,chars);

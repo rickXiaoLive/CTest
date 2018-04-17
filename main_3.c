@@ -1,19 +1,10 @@
 #include <stdio.h>
 #include <stddef.h>
+#include "./fun.h"
 
 void daoxu(char *str);
 
-//字符串长度
-int str_length(char const *str){
-    int length = 0;
-    while(*str != '\0'){
-        length ++;
-        str++;
-    }
-    return length;
-}
-
-int main(){
+void main3(){
     char str[] = "hello del str";
 
     daoxu(str);
